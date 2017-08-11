@@ -8,7 +8,7 @@ var Comment = require('./model/comments');
 var app = express();
 var router = express.Router();
 
-var port = process.env.API_PORT || 3001;
+var port = process.env.API_PORT || 8081;
 
 var user = 'TEubanks';
 var dbpassword = 'something';
